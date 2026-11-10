@@ -1,5 +1,15 @@
 [
   {
+    "id": "characters/cat_ragdoll",
+    "description": "白くて毛の長いラグドール (バイカラー)。青い目、ふさふさの胸毛としっぽ。しっぽを揺らす・歩く・おすわり・鳴く。",
+    "animations": [
+      "idle",
+      "walk",
+      "sit",
+      "meow"
+    ]
+  },
+  {
     "id": "characters/dog_shiba",
     "description": "柴犬風の子犬。しっぽを振る・歩く・ほえる・跳ぶ・おすわり。",
     "animations": [
