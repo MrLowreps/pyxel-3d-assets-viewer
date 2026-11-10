@@ -1,0 +1,43 @@
+[
+  {
+    "id": "characters/dog_shiba",
+    "description": "柴犬風の子犬。しっぽを振る・歩く・ほえる・跳ぶ・おすわり。",
+    "animations": [
+      "idle",
+      "walk",
+      "bark",
+      "jump",
+      "sit"
+    ]
+  },
+  {
+    "id": "furniture/bed",
+    "description": "シングルベッド。頭側 (ヘッドボード) が -x。長さ 2.0m。",
+    "animations": []
+  },
+  {
+    "id": "furniture/chair",
+    "description": "背もたれ付きのいす。座る向き (正面) が +x。",
+    "animations": []
+  },
+  {
+    "id": "furniture/desk",
+    "description": "引き出し付きの机。幅 1.4m・奥行 0.7m・高さ 0.74m。",
+    "animations": []
+  },
+  {
+    "id": "furniture/plant",
+    "description": "鉢植えの観葉植物。葉がゆっくり揺れる。",
+    "animations": [
+      "sway"
+    ]
+  },
+  {
+    "id": "props/monitor_camera",
+    "description": "首振りする見守りカメラ。レンズが +x。高さ約 0.32m。",
+    "animations": [
+      "pan",
+      "recording"
+    ]
+  }
+]

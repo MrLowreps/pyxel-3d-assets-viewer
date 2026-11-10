@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pyxel3d モデル一覧</title>
+<style>
+  :root {
+    --bg: #f4f5f8; --card: #ffffff; --text: #1d2130; --muted: #5d6478;
+    --line: #dde0e8; --accent: #2b6cdf; --chip: #eef2fb; --thumb: #29366f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12141b; --card: #1c1f2a; --text: #e8eaf2; --muted: #9aa1b5;
+      --line: #2c3040; --accent: #7aa7ff; --chip: #262b3b; --thumb: #29366f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font-family: system-ui, -apple-system, "Hiragino Sans", sans-serif; line-height: 1.6; }
+  header { max-width: 1080px; margin: 0 auto; padding: 32px 16px 8px; }
+  h1 { margin: 0 0 4px; font-size: 1.5rem; }
+  header p { margin: 0; color: var(--muted); font-size: .9rem; }
+  main { max-width: 1080px; margin: 0 auto; padding: 16px;
+         display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+          display: flex; flex-direction: column; }
+  .thumb { display: block; background: var(--thumb); aspect-ratio: 4 / 3; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; image-rendering: pixelated; display: block; }
+  .noimg { height: 100%; display: grid; place-items: center; color: #8a93b8; font-size: .8rem; }
+  .body { padding: 12px 14px 14px; }
+  h2 { margin: 0 0 4px; font-size: 1rem; font-family: ui-monospace, Menlo, monospace; }
+  h2 a { color: inherit; text-decoration: none; }
+  h2 a:hover { color: var(--accent); }
+  .body p { margin: 0 0 6px; font-size: .88rem; }
+  .meta { color: var(--muted); font-size: .78rem !important; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip { background: var(--chip); color: var(--accent); border-radius: 999px; padding: 2px 10px;
+          font-size: .78rem; text-decoration: none; font-family: ui-monospace, Menlo, monospace; }
+  .chip.none { color: var(--muted); font-family: inherit; }
+  footer { max-width: 1080px; margin: 0 auto; padding: 8px 16px 32px; color: var(--muted); font-size: .8rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>pyxel3d モデル一覧</h1>
+  <p>Pyxel 用ローポリ 3D アセット (6 モデル)。カードを押すとビューアーで回して見られます。アニメーション名を押すとそのアニメーションで開きます。</p>
+</header>
+<main>
+      <article class="card">
+        <a class="thumb" href="viewer.html?model=characters/dog_shiba"><img src="thumbnails/characters__dog_shiba.png" alt="characters/dog_shiba" loading="lazy"></a>
+        <div class="body">
+          <h2><a href="viewer.html?model=characters/dog_shiba">characters/dog_shiba</a></h2>
+          <p>柴犬風の子犬。しっぽを振る・歩く・ほえる・跳ぶ・おすわり。</p>
+          <p class="meta">23 parts ・ 1.65 × 1.32 × 0.47 m</p>
+          <div class="chips"><a class="chip" href="viewer.html?model=characters/dog_shiba&amp;anim=idle">idle</a><a class="chip" href="viewer.html?model=characters/dog_shiba&amp;anim=walk">walk</a><a class="chip" href="viewer.html?model=characters/dog_shiba&amp;anim=bark">bark</a><a class="chip" href="viewer.html?model=characters/dog_shiba&amp;anim=jump">jump</a><a class="chip" href="viewer.html?model=characters/dog_shiba&amp;anim=sit">sit</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="thumb" href="viewer.html?model=furniture/bed"><img src="thumbnails/furniture__bed.png" alt="furniture/bed" loading="lazy"></a>
+        <div class="body">
+          <h2><a href="viewer.html?model=furniture/bed">furniture/bed</a></h2>
+          <p>シングルベッド。頭側 (ヘッドボード) が -x。長さ 2.0m。</p>
+          <p class="meta">5 parts ・ 2.02 × 0.90 × 1.40 m</p>
+          <div class="chips"><span class="chip none">静止モデル</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="thumb" href="viewer.html?model=furniture/chair"><img src="thumbnails/furniture__chair.png" alt="furniture/chair" loading="lazy"></a>
+        <div class="body">
+          <h2><a href="viewer.html?model=furniture/chair">furniture/chair</a></h2>
+          <p>背もたれ付きのいす。座る向き (正面) が +x。</p>
+          <p class="meta">6 parts ・ 0.44 × 0.98 × 0.44 m</p>
+          <div class="chips"><span class="chip none">静止モデル</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="thumb" href="viewer.html?model=furniture/desk"><img src="thumbnails/furniture__desk.png" alt="furniture/desk" loading="lazy"></a>
+        <div class="body">
+          <h2><a href="viewer.html?model=furniture/desk">furniture/desk</a></h2>
+          <p>引き出し付きの机。幅 1.4m・奥行 0.7m・高さ 0.74m。</p>
+          <p class="meta">6 parts ・ 1.40 × 0.73 × 0.70 m</p>
+          <div class="chips"><span class="chip none">静止モデル</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="thumb" href="viewer.html?model=furniture/plant"><img src="thumbnails/furniture__plant.png" alt="furniture/plant" loading="lazy"></a>
+        <div class="body">
+          <h2><a href="viewer.html?model=furniture/plant">furniture/plant</a></h2>
+          <p>鉢植えの観葉植物。葉がゆっくり揺れる。</p>
+          <p class="meta">4 parts ・ 0.60 × 1.16 × 0.60 m</p>
+          <div class="chips"><a class="chip" href="viewer.html?model=furniture/plant&amp;anim=sway">sway</a></div>
+        </div>
+      </article>
+      <article class="card">
+        <a class="thumb" href="viewer.html?model=props/monitor_camera"><img src="thumbnails/props__monitor_camera.png" alt="props/monitor_camera" loading="lazy"></a>
+        <div class="body">
+          <h2><a href="viewer.html?model=props/monitor_camera">props/monitor_camera</a></h2>
+          <p>首振りする見守りカメラ。レンズが +x。高さ約 0.32m。</p>
+          <p class="meta">6 parts ・ 0.21 × 0.32 × 0.20 m</p>
+          <div class="chips"><a class="chip" href="viewer.html?model=props/monitor_camera&amp;anim=pan">pan</a><a class="chip" href="viewer.html?model=props/monitor_camera&amp;anim=recording">recording</a></div>
+        </div>
+      </article>
+</main>
+<footer>ビューアーの操作: ドラッグで回転 / 下のボタンでモデル・アニメーション切り替え・ズーム</footer>
+</body>
+</html>
