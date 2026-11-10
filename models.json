@@ -21,6 +21,26 @@
     ]
   },
   {
+    "id": "characters/reindeer",
+    "description": "トナカイ。大きな角と赤い鼻、首には金の鈴。歩く・うなずく・空を飛ぶ。",
+    "animations": [
+      "idle",
+      "walk",
+      "nod",
+      "fly"
+    ]
+  },
+  {
+    "id": "characters/santa",
+    "description": "サンタクロース。赤い服と帽子、白いひげ、プレゼントの袋。手をふる・「ホッホッホー」と笑う。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave",
+      "laugh"
+    ]
+  },
+  {
     "id": "furniture/bed",
     "description": "シングルベッド。頭側 (ヘッドボード) が -x。長さ 2.0m。",
     "animations": []
@@ -40,6 +60,85 @@
     "description": "鉢植えの観葉植物。葉がゆっくり揺れる。",
     "animations": [
       "sway"
+    ]
+  },
+  {
+    "id": "people/boy",
+    "description": "男性A: 小学生くらいの男の子。赤いTシャツに半ズボン、黒いランドセル。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave"
+    ]
+  },
+  {
+    "id": "people/girl",
+    "description": "女性A: 小学生くらいの女の子。ピンクの服に紺のスカート、ふたつ結び、赤いランドセル。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave"
+    ]
+  },
+  {
+    "id": "people/man",
+    "description": "男性C: 30歳くらいの男性。紺のスーツに赤いネクタイ。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave"
+    ]
+  },
+  {
+    "id": "people/old_man",
+    "description": "男性D: 70歳くらいのおじいさん。白髪とひげ、メガネ、カーディガンに杖。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave"
+    ]
+  },
+  {
+    "id": "people/old_woman",
+    "description": "女性D: 70歳くらいのおばあさん。白髪のおだんご、メガネ、紫のカーディガン。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave"
+    ]
+  },
+  {
+    "id": "people/teen_boy",
+    "description": "男性B: 高校生くらいの青年。黒い学ランに金ボタン。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave"
+    ]
+  },
+  {
+    "id": "people/teen_girl",
+    "description": "女性B: 高校生くらいの女の子。セーラー服に赤いリボン、長い黒髪。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave"
+    ]
+  },
+  {
+    "id": "people/woman",
+    "description": "女性C: 30歳くらいの女性。青いブラウスに白いロングスカート、ボブヘア。",
+    "animations": [
+      "idle",
+      "walk",
+      "wave"
+    ]
+  },
+  {
+    "id": "props/christmas_tree",
+    "description": "クリスマスツリー。てっぺんで星が回り、電飾が交互に光る。高さ約 1.55m。",
+    "animations": [
+      "twinkle"
     ]
   },
   {
