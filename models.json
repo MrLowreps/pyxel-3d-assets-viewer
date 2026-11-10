@@ -22,7 +22,7 @@
   },
   {
     "id": "characters/reindeer",
-    "description": "トナカイ。大きな角と赤い鼻、首には金の鈴。歩く・うなずく・空を飛ぶ。",
+    "description": "トナカイ (デフォルメ体型)。大きな頭と角、赤い鼻、首には金の鈴。歩く・うなずく・空を飛ぶ。",
     "animations": [
       "idle",
       "walk",
