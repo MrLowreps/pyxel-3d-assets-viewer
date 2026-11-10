@@ -21,6 +21,8 @@
   header { max-width: 1080px; margin: 0 auto; padding: 32px 16px 8px; }
   h1 { margin: 0 0 4px; font-size: 1.5rem; }
   header p { margin: 0; color: var(--muted); font-size: .9rem; }
+  header p.demo { margin-top: 10px; }
+  header p.demo a { color: var(--accent); font-weight: 600; text-decoration: none; }
   main { max-width: 1080px; margin: 0 auto; padding: 16px;
          display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
   .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
@@ -45,6 +47,7 @@
 <header>
   <h1>pyxel3d モデル一覧</h1>
   <p>Pyxel 用ローポリ 3D アセット (7 モデル)。カードを押すとビューアーで回して見られます。アニメーション名を押すとそのアニメーションで開きます。</p>
+  <p class="demo"><a href="ui_demo.html">▶ UI プロトタイプ「わんにゃんハウス」を遊ぶ</a> (日本語の UI 部品のデモ)</p>
 </header>
 <main>
       <article class="card">
