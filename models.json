@@ -32,7 +32,7 @@
   },
   {
     "id": "characters/santa",
-    "description": "サンタクロース。赤い服と帽子、白いひげ、プレゼントの袋。手をふる・「ホッホッホー」と笑う。",
+    "description": "サンタクロース (約2.7頭身)。赤い服と帽子、白いひげ、プレゼントの袋。手をふる・「ホッホッホー」と笑う。",
     "animations": [
       "idle",
       "walk",
@@ -64,7 +64,7 @@
   },
   {
     "id": "people/boy",
-    "description": "男性A: 小学生くらいの男の子。赤いTシャツに半ズボン、黒いランドセル。",
+    "description": "男性A: 小学生くらいの男の子 (約2.2頭身)。赤いTシャツに半ズボン、黒いランドセル。",
     "animations": [
       "idle",
       "walk",
@@ -73,7 +73,7 @@
   },
   {
     "id": "people/girl",
-    "description": "女性A: 小学生くらいの女の子。ピンクの服に紺のスカート、ふたつ結び、赤いランドセル。",
+    "description": "女性A: 小学生くらいの女の子 (約2.2頭身)。ピンクの服に紺のスカート、ふたつ結び、赤いランドセル。",
     "animations": [
       "idle",
       "walk",
@@ -82,7 +82,7 @@
   },
   {
     "id": "people/man",
-    "description": "男性C: 30歳くらいの男性。紺のスーツに赤いネクタイ。",
+    "description": "男性C: 30歳くらいの男性 (約2.9頭身)。紺のスーツに赤いネクタイ。",
     "animations": [
       "idle",
       "walk",
@@ -91,7 +91,7 @@
   },
   {
     "id": "people/old_man",
-    "description": "男性D: 70歳くらいのおじいさん。白髪とひげ、メガネ、カーディガンに杖。",
+    "description": "男性D: 70歳くらいのおじいさん (約2.6頭身)。白髪とひげ、メガネ、カーディガンに杖。",
     "animations": [
       "idle",
       "walk",
@@ -100,7 +100,7 @@
   },
   {
     "id": "people/old_woman",
-    "description": "女性D: 70歳くらいのおばあさん。白髪のおだんご、メガネ、紫のカーディガン。",
+    "description": "女性D: 70歳くらいのおばあさん (約2.5頭身)。白髪のおだんご、メガネ、紫のカーディガン。",
     "animations": [
       "idle",
       "walk",
@@ -109,7 +109,7 @@
   },
   {
     "id": "people/teen_boy",
-    "description": "男性B: 高校生くらいの青年。黒い学ランに金ボタン。",
+    "description": "男性B: 高校生くらいの青年 (約2.7頭身)。黒い学ランに金ボタン。",
     "animations": [
       "idle",
       "walk",
@@ -118,7 +118,7 @@
   },
   {
     "id": "people/teen_girl",
-    "description": "女性B: 高校生くらいの女の子。セーラー服に赤いリボン、長い黒髪。",
+    "description": "女性B: 高校生くらいの女の子 (約2.7頭身)。セーラー服に赤いリボン、長い黒髪。",
     "animations": [
       "idle",
       "walk",
@@ -127,7 +127,7 @@
   },
   {
     "id": "people/woman",
-    "description": "女性C: 30歳くらいの女性。青いブラウスに白いロングスカート、ボブヘア。",
+    "description": "女性C: 30歳くらいの女性 (約2.8頭身)。青いブラウスに白いロングスカート、ボブヘア。",
     "animations": [
       "idle",
       "walk",
