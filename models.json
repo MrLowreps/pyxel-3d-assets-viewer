@@ -148,5 +148,75 @@
       "pan",
       "recording"
     ]
+  },
+  {
+    "id": "props/tire_stack",
+    "description": "タイヤバリア。コースわきに積んだタイヤ (赤白)。高さ 0.9m。",
+    "animations": []
+  },
+  {
+    "id": "props/traffic_cone",
+    "description": "三角コーン。コースの目印に並べる。高さ 0.7m。",
+    "animations": []
+  },
+  {
+    "id": "vehicles/formula_car",
+    "description": "フォーミュラカー。細い車体にむき出しの太いタイヤ、前後のウイング。全長 5.2m。",
+    "animations": [
+      "idle",
+      "drive",
+      "drive_left",
+      "drive_right"
+    ]
+  },
+  {
+    "id": "vehicles/pickup",
+    "description": "ピックアップトラック。荷台にロールバーとライト、木箱とスペアタイヤ。全長 5.3m。",
+    "animations": [
+      "idle",
+      "drive",
+      "drive_left",
+      "drive_right"
+    ]
+  },
+  {
+    "id": "vehicles/rally_car",
+    "description": "ラリーカー。ハッチバックに大きなウイング、補助ライト、泥よけ、ゼッケン。全長 4.0m。",
+    "animations": [
+      "idle",
+      "drive",
+      "drive_left",
+      "drive_right"
+    ]
+  },
+  {
+    "id": "vehicles/sports_car",
+    "description": "スポーツカー。低いくさび形の車体、リアウイング。全長 4.4m。",
+    "animations": [
+      "idle",
+      "drive",
+      "drive_left",
+      "drive_right"
+    ]
+  },
+  {
+    "id": "vehicles/suv",
+    "description": "SUV。背が高く大きなタイヤ、ルーフレール、背面スペアタイヤ。全長 4.7m。",
+    "animations": [
+      "idle",
+      "drive",
+      "drive_left",
+      "drive_right"
+    ]
+  },
+  {
+    "id": "vehicles/truck",
+    "description": "トラック。前に倒れた運転席と大きな箱型の荷台、後ろはダブルタイヤ。全長 7.6m。",
+    "animations": [
+      "idle",
+      "drive",
+      "drive_left",
+      "drive_right"
+    ]
   }
 ]
